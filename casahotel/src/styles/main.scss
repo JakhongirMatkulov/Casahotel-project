@@ -1,0 +1,51 @@
+// Imports 
+@import 'about.scss';
+@import 'home.scss';
+@import 'contacts.scss';
+@import 'events.scss';
+@import 'rooms.scss';
+@import 'resarvation.scss';
+
+
+// Nested styling
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 100%;
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+// variables
+$primaryColor: #fd7e14;
+$defaultFontSize: 16px;
+
+// Mixins
+@mixin primaryButtonStyle {
+  border-radius: 30px;
+  background-color: $primaryColor;
+  font-size: $defaultFontSize;
+  border: none;
+  cursor: pointer;
+}
+
+.home-form-btn {
+  width: 250px;
+  height: 50px;
+  @include primaryButtonStyle;
+}
+
+.read-more-btn {
+  @include primaryButtonStyle;
+  width: 200px;
+  height: 55px;
+}
