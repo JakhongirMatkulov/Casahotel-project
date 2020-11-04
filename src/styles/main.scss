@@ -1,0 +1,33 @@
+@import 'about.scss';
+@import 'contacts.scss';
+@import 'events.scss';
+@import 'home.scss';
+@import 'reservation.scss';
+@import 'rooms.scss';
+
+// Variables
+$Offwhite: whitesmoke;
+$sectionHeading: 30px;
+
+
+
+// Nested-styling
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 100%; 
+  input {
+    appearance: none;
+    -webkit-apperance: none;
+    -moz-apperance: none;
+    border: none;
+
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+}
+

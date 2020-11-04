@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 100%; }
+  body input {
+    appearance: none;
+    -webkit-apperance: none;
+    -moz-apperance: none;
+    border: none; }
+    body input:focus {
+      outline: none;
+      border: none; }
+
+/*# sourceMappingURL=main.css.map */
