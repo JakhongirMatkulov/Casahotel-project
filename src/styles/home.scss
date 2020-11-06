@@ -1,0 +1,134 @@
+$Offwhite: white;
+$Darkblack: black;
+$Backgrey: #fafafa;
+$titleStyle:'Frank Ruhl Libre', serif;
+$labelStyle: 'IBM Plex Sans', sans-serif;
+$backorg: #FF842B;
+$hoverorg: #CC661D;
+
+@mixin name {
+  
+}
+
+
+body {
+
+ .home-header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/hero_1.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+
+  .home-title {
+    width: 600px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Merriweather', serif;
+    color: $Offwhite;
+    font-family: $titleStyle;
+  }
+ }
+
+ .home-booking-form{
+   width: 100%;
+   padding-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: $Backgrey;
+
+   .primary-heading {
+     padding: 30px;
+     display: flex;
+     font-size: 60px;
+     font-family: $titleStyle;
+     color: $Darkblack;
+   }
+
+   .booking-form {
+     width: 85%;
+     height: 25vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 120px;
+     background-color: $Offwhite;
+     box-shadow: 0px 0px 20px 0px rgba(80, 79, 79, 0.5);
+
+     .form-row {
+       display: flex;
+       flex-direction: column;
+       margin: 13px;
+       padding: 5px;
+     
+       #label {
+         padding-bottom: 10px;
+         font-size: 15px;
+         font-family: $labelStyle;
+       }
+
+       #check-in {
+        width: 250px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+       }
+
+       #check-out {
+        width: 250px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+       }
+
+       #adults {
+        width: 100px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+       }
+
+       #children {
+        width: 100px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+       }
+     }
+
+     .booking-button {
+       width: 250px;
+       height: 50px;
+       margin-top: 30px;
+       background-color: $backorg;
+       font-size: 15px;
+       font-family: $labelStyle;
+       border: none;
+       border-radius: 50px;
+       color: $Offwhite;
+       transition: 0.5s;
+
+      &:focus {
+        outline: none;
+        border: none;
+      }
+
+      &:hover {
+        background-color: $hoverorg;
+      }
+
+
+     }
+   }
+ }
+}

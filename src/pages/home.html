@@ -5,48 +5,158 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Casahotel</title>
   <link rel="stylesheet" href="../styles/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
-<!----------------Header-Start---------------->
-<div class="home-header">
-  <div class="home-title">
-    Enjoy Luxury Expirience
-  </div>
-  <div class="home-scroll-btn"></div>
-</div><!----------------Header-End---------------->
+  <body>
+  <!----------------Header-Start---------------->
+      <div class="home-header">
+        <div class="home-title">Enjoy A Luxury Expirience</div>
+        <div class="home-scroll-btn"></div>
+      </div><!----------------Header-End---------------->
+
+  <!-----------------Booking-Form-Start---------------->
+      <div class="home-booking-form">
+          <div class="primary-heading">Check Availability</div>
+
+          <form action="#" class="booking-form">
+
+              <div class="form-row">
+                <label for="check-in" id="label">Check in</label>
+                <input type="date" name="check in" id="check-in">
+              </div>
+
+              <div class="form-row">
+                <label for="check-out" id="label">Check out</label>
+                <input type="date" name="check out" id="check-out">
+              </div>
+
+              <div class="form-row">
+                <label for="adults" id="label">Adults</label>
+                <select name="number" id="adults">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4+">4+</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="children" id="label">Children</label>
+                <select name="number" id="children">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4+">4+</option>
+                </select>
+              </div>
+
+              <button class="booking-button">Check Availabilty</button>
+
+          </form>
+      </div><!-----------------Booking-Form-End---------------->
 
 
-<!-----------------Booking-Form-Start---------------->
-<div class="home-booking-form">
-      <div class="primary-heading">
-        Check Availability
+
+
+      <!-------------------About-Us-Start---------------->
+      <div class="home-about-us">
+        <div class="about-us-content">
+          <div class="primary-heading">Welcome to Casahotel.</div>
+
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+          <h5>Nemo, aspernatur beatae porro, animi saepe laborum neque at tenetur deleniti quae debitis et. Natus nulla aperiam voluptas eius exercitationem quam neque?</h5>
+
+          <button type="button" name="read-more" class="about-us-btn">Read More</button>
+        </div>
+        
+        <div class="about-us-image">
+          <img src="../../assets/images/about_feature_image.png">
+        </div>
+      </div><!-------------------About-Us-End---------------->
+
+      <!-------------------Rooms-Satrt------------->
+      <div class="home-rooms">
+
+        <div class="primary-heading">Great Offers</div>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nesciunt inventore deserunt quibusdam tenetur dolores. Quaerat rem voluptatem doloribus excepturi laudantium magni corporis libero, earum nostrum commodi exercitationem deserunt optio!</h4>
+        
+        <div class="rooms-galery">
+          <img src="../../assets/images/img_1.jpg">
+          <h2>$199</h2>/per night
+          <h3>Superior Room</h3>
+
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nisi quasi! Vero esse atque ad recusandae saepe. Sint voluptas dolor explicabo autem facere laudantium repellendus sunt consequuntur, consequatur quisquam minus.</h4>
+
+          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint repellat nisi eligendi ex esse ducimus sunt quibusdam debitis iste illo similique neque id tempora pariatur accusamus, inventore nam. Veritatis, mollitia.</h5> 
+
+          <button class="rooms-btn-book-now">Book Now</button>
+        </div>
+        <div class="rooms-galery">
+          <h2>$299</h2>/per night
+          <h3>Presidential Room</h3>
+
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nisi quasi! Vero esse atque ad recusandae saepe. Sint voluptas dolor explicabo autem facere laudantium repellendus sunt consequuntur, consequatur quisquam minus.</h4>
+
+          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint repellat nisi eligendi ex esse ducimus sunt quibusdam debitis iste illo similique neque id tempora pariatur accusamus, inventore nam. Veritatis, mollitia.</h5> 
+
+          <button class="rooms-btn-book-now">Book Now</button>
+        </div>
+          <img src="../../assets/images/img_2.jpg">
+
+
+        <button class="rooms-btn-primary">View All Rooms</button>
+      </div><!-------------------Rooms-End------------->
+
+      <!---------------------Galery-Start----------->
+      <div class="home-galery">
+        <div class="primary-heading">See The Galery</div>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit, facilis saepe eveniet, fuga omnis earum vitae, vero eos est veritatis adipisci id quam? Dignissimos repellat consequuntur quos numquam maxime.</h4>
+      </div><!---------------------Galery-End----------->
+
+      <!--------------------Testimonial-Start----------->
+      <div class="home-testimonial">
+        <div class="primary-heading">Testimonial</div>
+      </div><!--------------------Testimonial-End----------->
+
+      <!--------------------Events-Start------------------>
+      <div class="home-events">
+        <div class="primary-heading">Events</div>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus mollitia voluptas omnis quo et, deserunt est enim soluta quae. Nostrum distinctio adipisci iure blanditiis mollitia dolor commodi accusamus dicta magni!</h4>
+      </div><!--------------------Events-End------------------>
+
+      <!----------------Reserve-Start------------->
+      <div class="heme-reserve">
+        <div class="home-reserve-heading">Make Yourself Comfortable in Any of Our Fully Air-conditioned Rooms</div>
+
+        <button>Reserve Now</button>
       </div>
 
-      <form action="#" class="booking-form">
-          <label>Check in</label>
-          <input type="text" name="check in">
-          <label>Check out</label>
-          <input type="text" name="check out">
-          <label>Adults</label>
-          <select name="number">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4+">4+</option>
-          </select>
-          <label>Children</label>
-          <select name="number">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4+">4+</option>
-          </select>
-          <button class="booking-button">Check Availabilty</button>
-      </form>
-</div><!-----------------Booking-Form-End---------------->
+      <!----------------Reserve-End------------->
 
 
-
-  
-</body>
+      <!--------------------Footer-Srart--------------->
+      <footer class="footer">
+        <table>
+          <td>
+            <tr>     
+              <tl>About Us</tl>
+              <tl>About Us</tl>  
+              <tl>About Us</tl> 
+              <tl>About Us</tl> 
+              <tl>About Us</tl>
+            </tr>
+            <tr>     
+              <tl>About Us</tl>
+              <tl>About Us</tl>  
+              <tl>About Us</tl> 
+              <tl>About Us</tl> 
+              <tl>About Us</tl>
+            </tr>       
+          </td>
+        </table>
+      </footer>
+      <!--------------------Footer-End--------------->
+      <div style="margin-top: 500px;"></div>
+  </body>
 </html>

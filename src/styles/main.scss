@@ -17,17 +17,17 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-size: 100%; 
+  font-size: 100%;
+
   input {
-    appearance: none;
+     appearance: none;
     -webkit-apperance: none;
     -moz-apperance: none;
-    border: none;
-
+   
     &:focus {
       outline: none;
-      border: none;
     }
+
   }
 }
 

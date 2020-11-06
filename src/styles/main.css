@@ -1,3 +1,93 @@
+body .home-header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)), url(../../assets/images/hero_1.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover; }
+  body .home-header .home-title {
+    width: 600px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-family: "Frank Ruhl Libre", serif; }
+body .home-booking-form {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa; }
+  body .home-booking-form .primary-heading {
+    padding: 30px;
+    display: flex;
+    font-size: 60px;
+    font-family: "Frank Ruhl Libre", serif;
+    color: black; }
+  body .home-booking-form .booking-form {
+    width: 85%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(80, 79, 79, 0.5); }
+    body .home-booking-form .booking-form .form-row {
+      display: flex;
+      flex-direction: column;
+      margin: 13px;
+      padding: 5px; }
+      body .home-booking-form .booking-form .form-row #label {
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-family: "IBM Plex Sans", sans-serif; }
+      body .home-booking-form .booking-form .form-row #check-in {
+        width: 250px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px; }
+      body .home-booking-form .booking-form .form-row #check-out {
+        width: 250px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px; }
+      body .home-booking-form .booking-form .form-row #adults {
+        width: 100px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px; }
+      body .home-booking-form .booking-form .form-row #children {
+        width: 100px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px; }
+    body .home-booking-form .booking-form .booking-button {
+      width: 250px;
+      height: 50px;
+      margin-top: 30px;
+      background-color: #FF842B;
+      font-size: 15px;
+      font-family: "IBM Plex Sans", sans-serif;
+      border: none;
+      border-radius: 50px;
+      color: white;
+      transition: 0.5s; }
+      body .home-booking-form .booking-form .booking-button:focus {
+        outline: none;
+        border: none; }
+      body .home-booking-form .booking-form .booking-button:hover {
+        background-color: #CC661D; }
+
 body {
   margin: 0;
   padding: 0;
@@ -7,10 +97,8 @@ body {
   body input {
     appearance: none;
     -webkit-apperance: none;
-    -moz-apperance: none;
-    border: none; }
+    -moz-apperance: none; }
     body input:focus {
-      outline: none;
-      border: none; }
+      outline: none; }
 
 /*# sourceMappingURL=main.css.map */
