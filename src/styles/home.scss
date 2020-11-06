@@ -1,18 +1,16 @@
 $Offwhite: white;
 $Darkblack: black;
 $Backgrey: #fafafa;
-$titleStyle:'Frank Ruhl Libre', serif;
-$labelStyle: 'IBM Plex Sans', sans-serif;
+$titleStyle: 'Taviraj', serif;
 $backorg: #FF842B;
 $hoverorg: #CC661D;
+$h4style: 'Quicksand', sans-serif;
 
 @mixin name {
   
 }
 
-
 body {
-
  .home-header {
   width: 100%;
   height: 100vh;
@@ -20,22 +18,35 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  padding: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/hero_1.jpg);
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
 
-  .home-title {
-    width: 600px;
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Merriweather', serif;
-    color: $Offwhite;
-    font-family: $titleStyle;
-  }
- }
+    #span-scroll-btn a span {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      width: 30px;
+      height: 50px;
+      border: 2px solid #fff;
+      border-radius: 50px;
+      box-sizing: border-box;
+    }
+    #span-scroll-btn a span::before {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      content: '';
+      width: 6px;
+      height: 6px;
+      margin-left: -3px;
+      background-color: #fff;
+      border-radius: 100%;
+      box-sizing: border-box;
+    }
+
+}
 
  .home-booking-form{
    width: 100%;
@@ -71,12 +82,6 @@ body {
        margin: 13px;
        padding: 5px;
      
-       #label {
-         padding-bottom: 10px;
-         font-size: 15px;
-         font-family: $labelStyle;
-       }
-
        #check-in {
         width: 250px;
         height: 50px;
@@ -112,7 +117,8 @@ body {
        margin-top: 30px;
        background-color: $backorg;
        font-size: 15px;
-       font-family: $labelStyle;
+       font-family: $h4style;
+       font-weight: 700;
        border: none;
        border-radius: 50px;
        color: $Offwhite;
@@ -126,9 +132,66 @@ body {
       &:hover {
         background-color: $hoverorg;
       }
-
-
      }
    }
  }
+
+
+.home-about-us {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid greenyellow;
+
+  .about-us-content {
+    width: 45%;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    border: 2px solid red;
+
+    .about-us-btn {
+      width: 130px;
+      height: 40px;
+      margin-top: 30px;
+      background-color: $backorg;
+      font-size: 15px;
+      font-family: $h4style;
+      border: none;
+      border-radius: 50px;
+      color: $Offwhite;
+      transition: 0.5s;
+
+     &:focus {
+       outline: none;
+       border: none;
+     }
+
+     &:hover {
+       background-color: $hoverorg;
+     }
+    }
+
+    
+  }
+
+  .about-us-image {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    img {
+      width: 100%;
+    }
+  }
+
+
+}
+
+
 }
