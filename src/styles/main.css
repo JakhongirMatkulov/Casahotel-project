@@ -260,6 +260,21 @@ body .home-rooms {
       border: none; }
     body .home-rooms .rooms-btn-primary:hover {
       background-color: #CC661D; }
+body .home-galery {
+  width: 60%;
+  display: block;
+  text-align: center;
+  padding-left: 20px; }
+  body .home-galery .primary-heading {
+    width: 100%;
+    height: 20px;
+    padding-top: 100px;
+    padding-left: 250px; }
+  body .home-galery h4 {
+    width: 80%;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    line-height: 35px; }
 
 body {
   margin: 0;
