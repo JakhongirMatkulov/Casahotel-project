@@ -5,23 +5,20 @@ $titleStyle: 'Taviraj', serif;
 $backorg: #FF842B;
 $hoverorg: #CC661D;
 $h4style: 'Quicksand', sans-serif;
-
-@mixin name {
-  
-}
+$backFont: #E6EDED;
 
 body {
  .home-header {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/hero_1.jpg);
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/hero_1.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
 
     #span-scroll-btn a span {
       position: absolute;
@@ -45,10 +42,9 @@ body {
       border-radius: 100%;
       box-sizing: border-box;
     }
+ }
 
-}
-
- .home-booking-form{
+ .home-booking-form {
    width: 100%;
    padding-top: 30px;
    display: flex;
@@ -56,14 +52,6 @@ body {
    align-items: center;
    justify-content: center;
    background-color: $Backgrey;
-
-   .primary-heading {
-     padding: 30px;
-     display: flex;
-     font-size: 60px;
-     font-family: $titleStyle;
-     color: $Darkblack;
-   }
 
    .booking-form {
      width: 85%;
@@ -124,18 +112,17 @@ body {
        color: $Offwhite;
        transition: 0.5s;
 
-      &:focus {
-        outline: none;
-        border: none;
-      }
+        &:focus {
+          outline: none;
+          border: none;
+        }
 
-      &:hover {
-        background-color: $hoverorg;
+        &:hover {
+          background-color: $hoverorg;
+        }
       }
-     }
-   }
- }
-
+    }
+  }
 
 .home-about-us {
   width: 100%;
@@ -144,19 +131,24 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 2px solid greenyellow;
 
   .about-us-content {
-    width: 45%;
-    height: 100vh;
-    margin: auto;
+    width: 30%;
+    height: 90vh;
+    margin: 0;
     padding: 0;
-    border: 2px solid red;
+    line-height: 30px;
+    padding-bottom: 10px;
+
+    .about-us-link {
+      display: flex;
+      flex-direction: row;
+      
+    }
 
     .about-us-btn {
-      width: 130px;
+      width: 150px;
       height: 40px;
-      margin-top: 30px;
       background-color: $backorg;
       font-size: 15px;
       font-family: $h4style;
@@ -168,30 +160,211 @@ body {
      &:focus {
        outline: none;
        border: none;
+      }
+
+     &:hover {
+       background-color: $hoverorg;
+      }
+    }   
+  }
+
+  .about-us-image {
+    width: 45%;
+    height: 80vh;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-size: cover;
+    }
+  }
+}
+
+  .home-rooms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $Backgrey;
+    border: 2px solid purple;
+
+    .home-rooms-heading {
+        width: 60%;
+        display: flex;
+        flex-direction: column;   
+
+        h4 {
+          width: 85%;
+          display: block;
+          text-align: center;
+          margin-top: 0;
+          padding-left: 50px;
+          padding-bottom: 30px;
+          line-height: 35px;    
+       }
+
+          .primary-heading {
+            height: 20px;
+            padding-top: 100px;
+          }
+     }
+
+   .room-1 {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .rooms-galery {
+      display: flex;
+      flex-direction: row;
+      width: 530px;
+      height: 640px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-size: cover;
+      }
+    }
+    .rooms-content {
+      width: 500px;
+      height: 640px;
+      margin: 0;
+      padding-left: 50px;
+      background-color: $Offwhite;
+
+      .rooms-btn-book-now {
+        width: 130px;
+        height: 45px;
+        background-color: $backorg;
+        font-size: 15px;
+        font-family: $h4style;
+        border: none;
+        border-radius: 50px;
+        color: $Offwhite;
+        transition: 0.5s;
+  
+       &:focus {
+         outline: none;
+         border: none;
+       }
+  
+       &:hover {
+         background-color: $hoverorg;
+       }
+      }   
+     }
+    }
+
+
+    .room-2 {
+      width: 80%;
+      height: 640px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      padding-left: 0;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid red;
+      .rooms-galery {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 40%;
+        height: 640px;
+        border: 2px solid blue;
+        img {
+          width: 100%;
+          height: 100%;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-right: 0;
+          padding-left: 0;
+          object-fit: cover;
+          background-size: cover;
+        }
+      }
+      .rooms-content {
+        width: 40%;
+        height: 640px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: $Offwhite;
+        border: 2px solid green;
+        .rooms-btn-book-now {
+          width: 130px;
+          height: 45px;
+          background-color: $backorg;
+          font-size: 15px;
+          font-family: $h4style;
+          border: none;
+          border-radius: 50px;
+          color: $Offwhite;
+          transition: 0.5s;
+    
+         &:focus {
+           outline: none;
+           border: none;
+         }
+    
+         &:hover {
+           background-color: $hoverorg;
+         }
+        }   
+       }
+    }
+
+    .rooms-btn-primary {
+      width: 200px;
+      height: 60px;
+      background-color: $backorg;
+      font-size: 15px;
+      font-family: $h4style;
+      border: none;
+      border-radius: 50px;
+      color: $Offwhite;
+      margin-top: 40px;
+      margin-bottom: 100px;
+      transition: 0.5s;
+
+     &:focus {
+       outline: none;
+       border: none;
      }
 
      &:hover {
        background-color: $hoverorg;
      }
-    }
+    }   
 
-    
   }
-
-  .about-us-image {
-    width: 55%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid purple;
-    img {
-      width: 100%;
-    }
-  }
-
-
-}
-
-
 }
