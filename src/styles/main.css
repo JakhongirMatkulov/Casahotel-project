@@ -135,8 +135,9 @@ body .home-rooms {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fafafa;
-  border: 2px solid purple; }
+  background-color: #fafafa; }
+  body .home-rooms .wrapper {
+    border: 2px solid khaki; }
   body .home-rooms .home-rooms-heading {
     width: 60%;
     display: flex;
@@ -153,8 +154,6 @@ body .home-rooms {
       height: 20px;
       padding-top: 100px; }
   body .home-rooms .room-1 {
-    width: 100%;
-    height: 640px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -162,16 +161,19 @@ body .home-rooms {
     body .home-rooms .room-1 .rooms-galery {
       display: flex;
       flex-direction: row;
-      width: 530px;
-      height: 640px; }
+      width: 576.5px;
+      height: 656px;
+      object-fit: cover;
+      background-size: cover; }
       body .home-rooms .room-1 .rooms-galery img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-size: cover; }
+        background-size: cover;
+        margin-right: 20px; }
     body .home-rooms .room-1 .rooms-content {
-      width: 500px;
-      height: 640px;
+      width: 39%;
+      height: 48vw;
       padding-left: 50px;
       background-color: white; }
       body .home-rooms .room-1 .rooms-content .rooms-cont-items {
@@ -197,8 +199,6 @@ body .home-rooms {
         body .home-rooms .room-1 .rooms-content .rooms-btn-book-now:hover {
           background-color: #CC661D; }
   body .home-rooms .room-2 {
-    width: 80%;
-    height: 640px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -206,22 +206,28 @@ body .home-rooms {
     body .home-rooms .room-2 .rooms-galery {
       display: flex;
       flex-direction: row;
-      width: 51%;
-      height: 640px; }
+      width: 576px;
+      height: 656px;
+      object-fit: cover;
+      background-size: cover; }
       body .home-rooms .room-2 .rooms-galery img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-size: cover; }
+        background-size: cover;
+        margin-right: 20px; }
     body .home-rooms .room-2 .rooms-content {
-      width: 49%;
-      height: 640px;
-      padding-left: 0px;
+      width: 39%;
+      height: 48vw;
+      padding-left: 50px;
       background-color: white; }
       body .home-rooms .room-2 .rooms-content .rooms-cont-items {
-        padding-left: 40px; }
+        width: 95%;
+        padding-bottom: 50px; }
         body .home-rooms .room-2 .rooms-content .rooms-cont-items .primary-heading {
           color: #FF842B; }
+        body .home-rooms .room-2 .rooms-content .rooms-cont-items h3 {
+          height: 20px; }
       body .home-rooms .room-2 .rooms-content .rooms-btn-book-now {
         width: 130px;
         height: 45px;

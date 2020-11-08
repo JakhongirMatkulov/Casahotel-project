@@ -187,7 +187,10 @@ body {
     align-items: center;
     justify-content: center;
     background-color: $Backgrey;
-    border: 2px solid purple;
+
+    .wrapper {
+      border: 2px solid khaki;
+    }
 
     .home-rooms-heading {
         width: 60%;
@@ -211,8 +214,6 @@ body {
      }
 
    .room-1 {
-    width: 100%;
-    height: 640px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -221,19 +222,22 @@ body {
     .rooms-galery {
       display: flex;
       flex-direction: row;
-      width: 530px;
-      height: 640px;
+      width: 576.5px;
+      height: 656px;
+      object-fit: cover;
+      background-size: cover;
       
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         background-size: cover;
+        margin-right: 20px;
       }
     }
     .rooms-content {
-      width: 500px;
-      height: 640px;
+      width: 39%;
+      height: 48vw;
       padding-left: 50px;
       background-color: $Offwhite;
 
@@ -250,8 +254,6 @@ body {
       }
 
      }
-
-      
 
       .rooms-btn-book-now {
         width: 130px;
@@ -277,41 +279,47 @@ body {
     }
 
     .room-2 {
-      width: 80%;
-      height: 640px;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      
+  
       .rooms-galery {
         display: flex;
         flex-direction: row;
-        width: 51%;
-        height: 640px;
+        width: 576px;
+        height: 656px;
+        object-fit: cover;
+        background-size: cover;
         
         img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           background-size: cover;
+          margin-right: 20px;
         }
       }
-      
       .rooms-content {
-        width: 49%;
-        height: 640px;
-        padding-left: 0px;
+        width: 39%;
+        height: 48vw;
+        padding-left: 50px;
         background-color: $Offwhite;
-
-        .rooms-cont-items {
-          padding-left: 40px;
-
-          .primary-heading {
-            color: $backorg;
-          }
+  
+       .rooms-cont-items{
+         width: 95%;
+         padding-bottom: 50px;
+  
+         .primary-heading {
+          color: $backorg;
         }
-        
+  
+        h3 {
+          height: 20px;
+        }
+  
+       }
+  
         .rooms-btn-book-now {
           width: 130px;
           height: 45px;
@@ -333,7 +341,7 @@ body {
          }
         }   
        }
-    }
+      }
 
     .rooms-btn-primary {
       width: 200px;
