@@ -8,7 +8,7 @@ $h4style: 'Quicksand', sans-serif;
 $backFont: #E6EDED;
 
 body {
- .home-header {
+  .home-header {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -21,118 +21,118 @@ body {
     background-size: cover;
 
     #span-scroll-btn a span {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      width: 30px;
-      height: 50px;
-      border: 2px solid #fff;
-      border-radius: 50px;
-      box-sizing: border-box;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
     }
     #span-scroll-btn a span::before {
-      position: absolute;
-      top: 10px;
-      left: 50%;
-      content: '';
-      width: 6px;
-      height: 6px;
-      margin-left: -3px;
-      background-color: #fff;
-      border-radius: 100%;
-      box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
     }
- }
+  }
 
- .home-booking-form {
-   width: 100%;
-   padding-top: 30px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   background-color: $Backgrey;
+  .home-booking-form {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $Backgrey;
 
-   .booking-form {
-     width: 85%;
-     height: 25vh;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     margin-bottom: 120px;
-     background-color: $Offwhite;
-     box-shadow: 0px 0px 20px 0px rgba(80, 79, 79, 0.5);
+    .booking-form {
+      width: 85%;
+      height: 25vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 120px;
+      background-color: $Offwhite;
+      box-shadow: 0px 0px 20px 0px rgba(80, 79, 79, 0.5);
 
-     .form-row {
-       display: flex;
-       flex-direction: column;
-       margin: 13px;
-       padding: 5px;
-     
-       #check-in {
-        width: 250px;
-        height: 50px;
-        border: 1px solid grey;
-        border-radius: 5px;
-       }
+      .form-row {
+      display: flex;
+      flex-direction: column;
+      margin: 13px;
+      padding: 5px;
 
-       #check-out {
-        width: 250px;
-        height: 50px;
-        border: 1px solid grey;
-        border-radius: 5px;
-       }
+      #check-in {
+      width: 250px;
+      height: 50px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      }
 
-       #adults {
-        width: 100px;
-        height: 50px;
-        border: 1px solid grey;
-        border-radius: 5px;
-       }
+      #check-out {
+      width: 250px;
+      height: 50px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      }
 
-       #children {
-        width: 100px;
-        height: 50px;
-        border: 1px solid grey;
-        border-radius: 5px;
-       }
-     }
+      #adults {
+      width: 100px;
+      height: 50px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      }
 
-     .booking-button {
-       width: 250px;
-       height: 50px;
-       margin-top: 30px;
-       background-color: $backorg;
-       font-size: 15px;
-       font-family: $h4style;
-       font-weight: 700;
-       border: none;
-       border-radius: 50px;
-       color: $Offwhite;
-       transition: 0.5s;
+      #children {
+      width: 100px;
+      height: 50px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      }
+      }
 
-        &:focus {
-          outline: none;
-          border: none;
-        }
+      .booking-button {
+      width: 250px;
+      height: 50px;
+      margin-top: 30px;
+      background-color: $backorg;
+      font-size: 15px;
+      font-family: $h4style;
+      font-weight: 700;
+      border: none;
+      border-radius: 50px;
+      color: $Offwhite;
+      transition: 0.5s;
 
-        &:hover {
-          background-color: $hoverorg;
-        }
+      &:focus {
+      outline: none;
+      border: none;
+      }
+
+      &:hover {
+      background-color: $hoverorg;
+      }
       }
     }
   }
 
-.home-about-us {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  .home-about-us {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-  .about-us-content {
+    .about-us-content {
     width: 30%;
     height: 90vh;
     margin: 0;
@@ -141,44 +141,45 @@ body {
     padding-bottom: 10px;
 
     .about-us-link {
-      display: flex;
-      flex-direction: row;
-      
+    display: flex;
+    flex-direction: row;
+
     }
 
     .about-us-btn {
-      width: 150px;
-      height: 40px;
-      background-color: $backorg;
-      font-size: 15px;
-      font-family: $h4style;
-      border: none;
-      border-radius: 50px;
-      color: $Offwhite;
-      transition: 0.5s;
+    width: 145px;
+    height: 43px;
+    background-color: $backorg;
+    font-size: 15px;
+    font-family: $h4style;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    color: $Offwhite;
+    transition: 0.5s;
 
-     &:focus {
-       outline: none;
-       border: none;
-      }
+    &:focus {
+    outline: none;
+    border: none;
+    }
 
-     &:hover {
-       background-color: $hoverorg;
-      }
+    &:hover {
+    background-color: $hoverorg;
+    }
     }   
-  }
+    }
 
-  .about-us-image {
+    .about-us-image {
     width: 45%;
     height: 80vh;
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    }
     }
   }
-}
 
   .home-rooms {
     width: 100%;
@@ -189,211 +190,144 @@ body {
     justify-content: center;
     background-color: $Backgrey;
 
-    .home-rooms-heading {
-        width: 70%;
-        display: flex;
-        flex-direction: column;   
-
-        h4 {
-          width: 90%;
-          display: block;
-          text-align: center;
-          margin-top: 10px;
-          padding-left: 100px;
-          padding-bottom: 30px;
-          line-height: 35px;    
-       }
-
-          .primary-heading {
-            height: 20px;
-            padding-top: 100px;
-          }
-     }
-
-   .room-1 {
+    .room-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
     .rooms-galery {
-      display: flex;
-      flex-direction: row;
-      width: 42%;
-      height: 645px;
-      object-fit: cover;
-      background-size: cover;
-      
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background-size: cover;
-        margin-right: 20px;
-      }
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+    height: 645px;
+    object-fit: cover;
+    background-size: cover;
+
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    margin-right: 20px;
+    }
     }
     .rooms-content {
-      width: 42%;
-      height: 47vw;
-      padding-left: 50px;
-      background-color: $Offwhite;
-      line-height: 40px;
+    width: 42%;
+    height: 47vw;
+    padding-left: 50px;
+    background-color: $Offwhite;
+    line-height: 40px;
 
-     .rooms-cont-items{
-       width: 95%;
-       padding-bottom: 50px;
+    .rooms-cont-items{
+    width: 95%;
+    padding-bottom: 50px;
 
 
-       .primary-heading {
-        color: $backorg;
-        margin-top: 90px;
-        height: 10px;
-      }
+    .primary-heading {
+    color: $backorg;
+    margin-top: 90px;
+    height: 10px;
+    }
 
-      h3 {
-        height: 20px;
-        margin-bottom: 20px;
-      }
-     }
-
-      .rooms-btn-book-now {
-        width: 130px;
-        height: 45px;
-        margin-top: 20px;
-        background-color: $backorg;
-        font-size: 15px;
-        font-family: $h4style;
-        border: none;
-        border-radius: 50px;
-        color: $Offwhite;
-        transition: 0.5s;
-  
-       &:focus {
-         outline: none;
-         border: none;
-       }
-  
-       &:hover {
-         background-color: $hoverorg;
-       }
-      }   
-     }
+    h3 {
+    height: 20px;
+    margin-bottom: 20px;
+    }
+    }
+    }
     }
 
     .room-2 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-  
-      .rooms-galery {
-        display: flex;
-        flex-direction: row;
-        width: 42%;
-        height: 645px;
-        object-fit: cover;
-        background-size: cover;
-        
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          background-size: cover;
-          margin-right: 20px;
-        }
-      }
-      .rooms-content {
-        width: 42%;
-        height: 47vw;
-        padding-left: 50px;
-        background-color: $Offwhite;
-        line-height: 40px;
-  
-       .rooms-cont-items{
-         width: 95%;
-         padding-bottom: 50px;
-  
-  
-         .primary-heading {
-          color: $backorg;
-          margin-top: 90px;
-          height: 10px;
-        }
-  
-        h3 {
-          height: 20px;
-          margin-bottom: 20px;
-        }
-       }
-  
-        .rooms-btn-book-now {
-          width: 130px;
-          height: 45px;
-          margin-top: 20px;
-          background-color: $backorg;
-          font-size: 15px;
-          font-family: $h4style;
-          border: none;
-          border-radius: 50px;
-          color: $Offwhite;
-          transition: 0.5s;
-    
-         &:focus {
-           outline: none;
-           border: none;
-         }
-    
-         &:hover {
-           background-color: $hoverorg;
-         }
-        }   
-       }
-      }
-    
-   .rooms-btn-primary {
-    width: 200px;
-    height: 60px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    background-color: $backorg;
-    font-size: 15px;
-    font-family: $h4style;
-    border: none;
-    border-radius: 50px;
-    color: $Offwhite;
-    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-   &:focus {
-     outline: none;
-     border: none;
-   }
+    .rooms-galery {
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+    height: 645px;
+    object-fit: cover;
+    background-size: cover;
 
-   &:hover {
-     background-color: $hoverorg;
-   }
-  } 
-  }
-  
-  .home-galery {
-    width: 60%;
-    display: block;
-    text-align: center;
-    padding-left: 20px;
-  
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    margin-right: 20px;
+    }
+    }
+    .rooms-content {
+    width: 42%;
+    height: 47vw;
+    padding-left: 50px;
+    background-color: $Offwhite;
+    line-height: 40px;
+
+    .rooms-cont-items {
+    width: 95%;
+    padding-bottom: 50px;
+
     .primary-heading {
-      width: 100%;
-      height: 20px;
-      padding-top: 100px;
-      padding-left: 250px;
+    color: $backorg;
+    margin-top: 90px;
+    height: 10px;
+    }    
+    h3 {
+    height: 20px;
+    margin-bottom: 20px;
+    }
+    }
+    }
+    }
+  }
+    
+  .home-galery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .custom {
+    width: 100%;
     }
 
-    h4 {
-      width: 80%;
-      padding-left: 300px;
-      padding-bottom: 30px;
-      line-height: 35px;    
-   }
-   }
+    .extra-photos-link {
+    padding-top: 20px;
+    text-decoration: none;
+    color: $backorg;
+    font-family: $h4style;
+    }
+  }
 
+  .home-events {
+    background-color: $Backgrey;
+    padding-bottom: 100px;
+  }
 
+  .home-reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .home-reserve-heading {
+      padding: 110px;
+    }
+
+    .btn-primary {
+      margin: 120px;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    height: 30vw;
+    background-color: black;
+  }
+    
 }
