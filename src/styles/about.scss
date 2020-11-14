@@ -1,0 +1,146 @@
+$Offwhite: white;
+$Darkblack: black;
+$Backgrey: #fafafa;
+$titleStyle: 'Taviraj', serif;
+$backorg: #FF842B;
+$hoverorg: #CC661D;
+$h4style: 'Quicksand', sans-serif;
+$backFont: #E6EDED;
+$lightGrey: grey;
+
+
+body {
+  .about-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/../images/img_2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+
+    #span-scroll-btn a span {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    }
+    #span-scroll-btn a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+    }
+  }
+
+  .hotel-history {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: $Backgrey;
+
+    .history-content {
+    width: 30%;
+    height: 90vh;
+    line-height: 30px;
+    padding-bottom: 10px;
+
+    .history-content-items {
+      line-height: 10px;
+
+      .primary-heading {
+        width: 79%;
+      }
+
+      h4 {  
+        width: 95%;
+        line-height: 30px;
+      }
+
+      h5 {
+        width: 95%;
+        line-height: 30px;
+      }
+    }
+
+    .hotel-history-btn {
+    width: 145px;
+    height: 43px;
+    background-color: $backorg;
+    font-size: 15px;
+    font-family: $h4style;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    color: $Offwhite;
+    transition: 0.5s;
+
+    &:focus {
+    outline: none;
+    border: none;
+    }
+
+    &:hover {
+    background-color: $hoverorg;
+    }
+    }   
+    }
+
+    .hotel-history-image {
+    width: 45%;
+    height: 80vh;
+
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    }
+    }
+  }
+
+  .about-testimonial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .custom-t {
+      width: 80%;
+    }
+
+  }
+
+  .about-reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .about-reserve-heading {
+      padding: 110px;
+    }
+
+    .btn-primary {
+      margin: 120px;
+    }
+  }
+
+}

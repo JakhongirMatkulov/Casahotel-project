@@ -219,7 +219,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 42%;
-    height: 645px;
+    height: 642px;
     object-fit: cover;
     background-size: cover;
 
@@ -267,7 +267,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 42%;
-    height: 645px;
+    height: 642px;
     object-fit: cover;
     background-size: cover;
 
@@ -311,8 +311,8 @@ body {
     align-items: center;
     justify-content: center;
 
-    .custom {
-    width: 100%;
+    .custom-galery {
+    width: 80%;
     }
 
     .extra-photos-link {
@@ -323,6 +323,19 @@ body {
     }
   }
 
+  .home-testimonial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .custom-t {
+      width: 80%;
+    }
+
+  }
+   
   .home-events {
     background-color: $Backgrey;
     padding-bottom: 100px;

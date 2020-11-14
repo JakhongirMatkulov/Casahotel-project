@@ -1,0 +1,65 @@
+$Offwhite: white;
+$Darkblack: black;
+$Backgrey: #fafafa;
+$titleStyle: 'Taviraj', serif;
+$backorg: #FF842B;
+$hoverorg: #CC661D;
+$h4style: 'Quicksand', sans-serif;
+$backFont: #E6EDED;
+$lightGrey: grey;
+
+
+body {
+  .events-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)), url(../../assets/images/slider-7.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+
+    #span-scroll-btn a span {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    }
+    #span-scroll-btn a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+    }
+  }
+
+  
+  .events-reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .events-reserve-heading {
+      padding: 110px;
+    }
+
+    .btn-primary {
+      margin: 120px;
+    }
+  }
+
+}
