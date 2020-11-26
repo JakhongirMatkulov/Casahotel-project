@@ -277,12 +277,14 @@ body .home-booking-form {
         background-color: #CC661D; }
 body .home-about-us {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  background: #fafafa; }
+  justify-content: center;
+  background: white; }
   body .home-about-us .about-us-content {
     width: 30%;
     height: 90vh;
@@ -298,12 +300,19 @@ body .home-about-us {
       body .home-about-us .about-us-content .about-content-items h5 {
         width: 95%;
         line-height: 30px; }
-    body .home-about-us .about-us-content .about-us-link {
-      display: flex;
-      flex-direction: row; }
+      body .home-about-us .about-us-content .about-content-items .or {
+        font-family: "Quicksand", sans-serif;
+        color: grey;
+        padding-left: 12px; }
+      body .home-about-us .about-us-content .about-content-items a {
+        padding-left: 13px;
+        font-family: "Quicksand", sans-serif;
+        color: #FF842B;
+        text-decoration: none; }
     body .home-about-us .about-us-content .about-us-btn {
       width: 145px;
       height: 43px;
+      margin-top: 30px;
       background-color: #FF842B;
       font-size: 15px;
       font-family: "Quicksand", sans-serif;
@@ -318,11 +327,12 @@ body .home-about-us {
       body .home-about-us .about-us-content .about-us-btn:hover {
         background-color: #CC661D; }
   body .home-about-us .about-us-image {
-    width: 45%;
+    width: 48%;
     height: 80vh; }
     body .home-about-us .about-us-image img {
       width: 100%;
       height: 100%;
+      padding-left: 25px;
       object-fit: cover;
       background-size: cover; }
 body .home-rooms {
@@ -355,8 +365,7 @@ body .home-rooms {
       width: 42%;
       height: 47vw;
       padding-left: 50px;
-      background-color: white;
-      line-height: 40px; }
+      background-color: white; }
       body .home-rooms .room-1 .rooms-content .rooms-cont-items {
         width: 95%;
         padding-bottom: 50px; }
@@ -364,9 +373,16 @@ body .home-rooms {
           color: #FF842B;
           margin-top: 90px;
           height: 10px; }
+          body .home-rooms .room-1 .rooms-content .rooms-cont-items .primary-heading h5 {
+            padding-left: 10px;
+            padding-top: 30px; }
         body .home-rooms .room-1 .rooms-content .rooms-cont-items h3 {
           height: 20px;
           margin-bottom: 20px; }
+        body .home-rooms .room-1 .rooms-content .rooms-cont-items h4 {
+          line-height: 35px; }
+        body .home-rooms .room-1 .rooms-content .rooms-cont-items h5 {
+          line-height: 30px; }
   body .home-rooms .room-2 {
     display: flex;
     flex-direction: row;
@@ -398,15 +414,24 @@ body .home-rooms {
           color: #FF842B;
           margin-top: 90px;
           height: 10px; }
+          body .home-rooms .room-2 .rooms-content .rooms-cont-items .primary-heading h5 {
+            padding-left: 10px;
+            padding-top: 30px; }
         body .home-rooms .room-2 .rooms-content .rooms-cont-items h3 {
           height: 20px;
           margin-bottom: 20px; }
+        body .home-rooms .room-2 .rooms-content .rooms-cont-items h4 {
+          line-height: 35px; }
+        body .home-rooms .room-2 .rooms-content .rooms-cont-items h5 {
+          line-height: 30px; }
 body .home-galery {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 100px;
+  background-color: #FF842B; }
   body .home-galery .custom-galery {
     width: 80%; }
   body .home-galery .extra-photos-link {
@@ -419,7 +444,8 @@ body .home-testimonial {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 100px; }
   body .home-testimonial .custom-t {
     width: 80%; }
 body .home-events {
@@ -439,26 +465,33 @@ body .footer {
   height: 50vw;
   background-color: #1c1a1a; }
   body .footer .footer-main-content {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 70px; }
-    body .footer .footer-main-content .footer-content-1 a {
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px; }
+    body .footer .footer-main-content .footer-link {
+      width: 20%;
+      height: 100%;
+      padding-left: 70px; }
+    body .footer .footer-main-content .footer-link a {
       font-size: 16px;
       font-family: "Quicksand", sans-serif;
       text-decoration: none;
-      color: grey; }
-    body .footer .footer-main-content .footer-content-2 a {
-      font-size: 16px;
-      font-family: "Quicksand", sans-serif;
-      text-decoration: none;
-      color: grey; }
+      color: grey;
+      line-height: 35px; }
+      body .footer .footer-main-content .footer-link a:hover {
+        color: #fafafa; }
     body .footer .footer-main-content .contact {
+      width: 25%;
       font-size: 16px;
       font-family: "Quicksand", sans-serif;
       color: #fafafa;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-top: 50px;
+      padding-left: 30px; }
       body .footer .footer-main-content .contact .fa-map-marker-alt {
         color: #CC661D;
         display: flex;
@@ -467,8 +500,8 @@ body .footer {
           padding-left: 15px;
           font-style: italic;
           color: white; }
-      body .footer .footer-main-content .contact .text {
-        width: 80%; }
+      body .footer .footer-main-content .contact .text p {
+        width: 100%; }
       body .footer .footer-main-content .contact .fa-phone-alt {
         color: #CC661D;
         display: flex;
@@ -485,19 +518,42 @@ body .footer {
           padding-left: 15px;
           font-style: italic;
           color: white; }
-    body .footer .footer-main-content .inputWithicon {
-      display: flex;
-      flex-direction: column;
+    body .footer .footer-main-content .email {
       font-size: 20px;
       font-family: "Quicksand", sans-serif;
-      position: relative;
-      border: none; }
-    body .footer .footer-main-content .fa-paper-plane {
-      position: absolute;
-      right: 0;
-      top: 60%;
-      transform: translateX(-60%);
-      font-size: 20px; }
+      border: none;
+      padding-bottom: 90px;
+      padding-left: 60px;
+      position: relative; }
+      body .footer .footer-main-content .email .label {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 500;
+        color: grey; }
+      body .footer .footer-main-content .email .input {
+        width: 70%;
+        height: 50px;
+        color: white;
+        border: none;
+        background: transparent;
+        border-bottom: 0.5px solid dimgray; }
+        body .footer .footer-main-content .email .input[type="text"] {
+          font-size: 15px; }
+        body .footer .footer-main-content .email .input:focus {
+          border-bottom: 1px solid white; }
+        body .footer .footer-main-content .email .input::placeholder {
+          font-size: 15px;
+          font-style: italic;
+          font-weight: bold;
+          color: dimgray; }
+      body .footer .footer-main-content .email .fa-paper-plane {
+        position: absolute;
+        right: 120px;
+        top: 70px;
+        color: white;
+        font-size: 16px; }
   body .footer .hr {
     width: 85%;
     background: 0 #3d3d3d; }
@@ -508,7 +564,7 @@ body .footer {
     justify-content: space-between;
     margin-left: 115px;
     margin-right: 115px;
-    padding-top: 50px; }
+    padding-top: 40px; }
     body .footer .social .fa-tripadvisor {
       font-size: 20px;
       color: lightgrey;
@@ -897,5 +953,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     color: #b3aeae; }
+  body ul {
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
