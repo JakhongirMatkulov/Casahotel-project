@@ -347,10 +347,32 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
-    background-color: $backorg;
+    background-color: $Backgrey;
 
     .custom-galery {
     width: 80%;
+    }
+
+    .custom-icon-p {
+      width: 100px;
+      height: 50px;
+      margin-left: -260px;
+      color: black;
+    }
+
+    .custom-icon-n {
+      width: 100px;
+      height: 50px;
+      margin-right: -260px;
+      color: black; 
+    }
+
+    .custom-indicators {
+      width: 6px;
+      height: 6px;   
+      border-radius: 100%;
+      border: 2px solid white;
+      background: transparent;
     }
 
     .extra-photos-link {
@@ -361,19 +383,20 @@ body {
     }
   }
 
-  .home-testimonial {
+  .testimonial {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
+    background: $backorg;
 
-    .custom-t {
-      width: 80%;
-    }
 
   }
+    
+
+  
    
   .home-events {
     background-color: $Backgrey;
@@ -392,171 +415,6 @@ body {
 
     .btn-primary {
       margin: 120px;
-    }
-  }
-
-  .footer {
-    width: 100%;
-    height: 50vw;
-    background-color: #1c1a1a;
-
-    .footer-main-content {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-      padding-top: 70px;
-      padding-bottom: 70px;
-
-      .footer-link {
-        width: 20%;
-        height: 100%;
-        padding-left: 70px;
-      }
-
-      .footer-link a {
-        font-size: 16px;
-        font-family: $h4style;
-        text-decoration: none;
-        color: $lightGrey;
-        line-height: 35px;
-      
-        &:hover {
-          color: $Backgrey;
-        } 
-      }
-
-      .contact { 
-        width: 25%;
-        font-size: 16px;
-        font-family: $h4style;
-        color: $Backgrey;
-        text-decoration: none;
-        padding-top: 50px;
-        padding-left: 30px;
-
-         .fa-map-marker-alt {
-           color: $hoverorg;
-           display: flex;
-           flex-direction: row;
-
-            h5{
-             padding-left: 15px;
-             font-style: italic;
-             color: white;
-           }
-         }
-        
-        .text p{
-          width: 100%;
-        }
-      
-        .fa-phone-alt {
-          color: $hoverorg;
-          display: flex;
-          flex-direction: row;
-
-          h5{
-            padding-left: 15px;
-            font-style: italic;
-            color: white;
-          }
-        }
-
-        .fa-envelope {
-          color: $hoverorg;
-          display: flex;
-          flex-direction: row;
-
-          h5{
-            padding-left: 15px;
-            font-style: italic;
-            color: white;
-          }
-        }
-      }
-
-      .email {
-        font-size: 20px;
-        font-family: $h4style;
-        border: none;
-        padding-bottom: 90px;
-        padding-left: 60px;
-        position: relative;
-
-        .label {
-          width: 100%;
-          height: 40px;
-          font-size: 16px;
-          font-family: $h4style;
-          font-weight: 500;
-          color: $lightGrey;
-        }
-        .input {
-          width: 70%;
-          height: 50px;
-          color: white;
-          border: none;
-          background: transparent;
-          border-bottom: 0.5px solid dimgray; 
-         
-          &[type="text"] {
-            font-size: 15px;
-          }
-
-          &:focus {
-            border-bottom: 1px solid white;
-          }
-
-          &::placeholder {
-            font-size: 15px;
-            font-style: italic;
-            font-weight: bold;
-            color: dimgray;
-
-          }
-        }
-
-        .fa-paper-plane{
-          position: absolute;
-          right: 120px;
-          top: 70px;
-          color: white;
-          font-size: 16px;  
-        }
-      }
-    }
-
-    .hr {
-      width: 85%;
-      background: 0 rgb(61, 61, 61);
-    }
-
-    .social {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      margin-left: 115px;
-      margin-right: 115px;
-      padding-top: 40px;
-
-      .fa-tripadvisor {
-        font-size: 20px;
-        color: lightgrey;
-        padding-bottom: 30px;
-      }
-      .fa-facebook-f{
-        font-size: 17px;
-        color: lightgrey;
-        padding-bottom: 31px;
-      }
-      .fa-twitter {
-        font-size: 17px;
-        color: lightgrey;
-        padding-bottom: 29px;
-      }
     }
   }
     
