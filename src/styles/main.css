@@ -457,12 +457,41 @@ body .home-galery {
     font-family: "Quicksand", sans-serif; }
 body .home-testimonial {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 100px;
-  background: #FF842B; }
+  height: 100%;
+  padding: 70px 0;
+  background-color: #FF842B;
+  border: 2px solid green; }
+  body .home-testimonial .custom-main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    border: 2px solid black; }
+    body .home-testimonial .custom-main .custom-item {
+      width: 30%;
+      border: 2px solid blueviolet; }
+      body .home-testimonial .custom-main .custom-item .custom-content {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Taviraj", serif;
+        font-style: italic;
+        padding: 10px 0;
+        border: 2px solid darkred; }
+      body .home-testimonial .custom-main .custom-item .custom-overview {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-style: italic;
+        border: 2px solid green; }
+    body .home-testimonial .custom-main .custom-item img {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+      border-radius: 50%;
+      text-align: center; }
 body .home-events {
   background-color: #fafafa;
   padding-bottom: 100px; }
