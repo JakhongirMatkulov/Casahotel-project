@@ -368,11 +368,15 @@ body {
     }
 
     .custom-indicators {
-      width: 6px;
-      height: 6px;   
+      width: 10px;
+      height: 10px;   
       border-radius: 100%;
+      background-color: white;
+    }
+
+    .custom-indicators .active {
       border: 2px solid white;
-      background: transparent;
+      background-color: transparent;
     }
 
     .extra-photos-link {

@@ -445,11 +445,13 @@ body .home-galery {
     margin-right: -260px;
     color: black; }
   body .home-galery .custom-indicators {
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
+    background-color: white; }
+  body .home-galery .custom-indicators .active {
     border: 2px solid white;
-    background: transparent; }
+    background-color: transparent; }
   body .home-galery .extra-photos-link {
     padding-top: 20px;
     text-decoration: none;
