@@ -342,7 +342,7 @@ body .home-rooms {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fafafa; }
+  background-color: #FF842B; }
   body .home-rooms .room-1 {
     display: flex;
     flex-direction: row;
@@ -366,23 +366,22 @@ body .home-rooms {
       height: 47vw;
       padding-left: 50px;
       background-color: white; }
+      body .home-rooms .room-1 .rooms-content .primary-heading {
+        color: #FF842B;
+        padding-top: 90px;
+        height: 10px;
+        padding-bottom: 40px; }
+      body .home-rooms .room-1 .rooms-content .primary-heading p {
+        padding-left: 10px;
+        padding-top: 30px; }
+      body .home-rooms .room-1 .rooms-content h4 {
+        line-height: 35px; }
+      body .home-rooms .room-1 .rooms-content h5 {
+        line-height: 30px; }
       body .home-rooms .room-1 .rooms-content .rooms-cont-items {
         width: 95%;
+        height: 60%;
         padding-bottom: 50px; }
-        body .home-rooms .room-1 .rooms-content .rooms-cont-items .primary-heading {
-          color: #FF842B;
-          margin-top: 90px;
-          height: 10px; }
-          body .home-rooms .room-1 .rooms-content .rooms-cont-items .primary-heading h5 {
-            padding-left: 10px;
-            padding-top: 30px; }
-        body .home-rooms .room-1 .rooms-content .rooms-cont-items h3 {
-          height: 20px;
-          margin-bottom: 20px; }
-        body .home-rooms .room-1 .rooms-content .rooms-cont-items h4 {
-          line-height: 35px; }
-        body .home-rooms .room-1 .rooms-content .rooms-cont-items h5 {
-          line-height: 30px; }
   body .home-rooms .room-2 {
     display: flex;
     flex-direction: row;
@@ -407,23 +406,21 @@ body .home-rooms {
       padding-left: 50px;
       background-color: white;
       line-height: 40px; }
+      body .home-rooms .room-2 .rooms-content .primary-heading {
+        color: #FF842B;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        height: 10px; }
+      body .home-rooms .room-2 .rooms-content .primary-heading p {
+        padding-left: 10px;
+        padding-top: 30px; }
+      body .home-rooms .room-2 .rooms-content h4 {
+        line-height: 35px; }
+      body .home-rooms .room-2 .rooms-content h5 {
+        line-height: 30px; }
       body .home-rooms .room-2 .rooms-content .rooms-cont-items {
         width: 95%;
         padding-bottom: 50px; }
-        body .home-rooms .room-2 .rooms-content .rooms-cont-items .primary-heading {
-          color: #FF842B;
-          margin-top: 90px;
-          height: 10px; }
-          body .home-rooms .room-2 .rooms-content .rooms-cont-items .primary-heading h5 {
-            padding-left: 10px;
-            padding-top: 30px; }
-        body .home-rooms .room-2 .rooms-content .rooms-cont-items h3 {
-          height: 20px;
-          margin-bottom: 20px; }
-        body .home-rooms .room-2 .rooms-content .rooms-cont-items h4 {
-          line-height: 35px; }
-        body .home-rooms .room-2 .rooms-content .rooms-cont-items h5 {
-          line-height: 30px; }
 body .home-galery {
   width: 100%;
   display: flex;
@@ -449,51 +446,49 @@ body .home-galery {
     height: 10px;
     border-radius: 100%;
     background-color: white; }
-  body .home-galery .custom-indicators .active {
-    border: 2px solid white;
-    background-color: transparent; }
   body .home-galery .extra-photos-link {
     padding-top: 20px;
     text-decoration: none;
     color: #FF842B;
     font-family: "Quicksand", sans-serif; }
 body .home-testimonial {
-  width: 100%;
-  height: 100%;
-  padding: 70px 0;
-  background-color: #FF842B;
-  border: 2px solid green; }
+  background-color: white; }
   body .home-testimonial .custom-main {
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 100px;
-    border: 2px solid black; }
+    padding: 50px 100px 100px; }
     body .home-testimonial .custom-main .custom-item {
-      width: 30%;
-      border: 2px solid blueviolet; }
+      width: 30%; }
       body .home-testimonial .custom-main .custom-item .custom-content {
         width: 100%;
         margin: 0 auto;
         text-align: center;
         font-family: "Taviraj", serif;
         font-style: italic;
-        padding: 10px 0;
-        border: 2px solid darkred; }
+        padding: 10px 0; }
       body .home-testimonial .custom-main .custom-item .custom-overview {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        font-style: italic;
-        border: 2px solid green; }
+        font-style: italic; }
     body .home-testimonial .custom-main .custom-item img {
       width: 70px;
       height: 70px;
       margin: 0 auto;
       border-radius: 50%;
       text-align: center; }
+  body .home-testimonial .custom-t-indicators {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #FF842B; }
+  body .home-testimonial .custom-icon {
+    width: 100px;
+    height: 50px;
+    color: black; }
 body .home-events {
   background-color: #fafafa;
   padding-bottom: 100px; }
@@ -793,9 +788,9 @@ body {
     font-family: "Taviraj", serif;
     font-weight: 700; }
   body .primary-heading {
-    margin-top: 60px;
-    margin-bottom: 30px;
     display: flex;
+    padding-top: 90px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
     line-height: 60px;
@@ -803,6 +798,13 @@ body {
     font-family: "Taviraj", serif;
     font-weight: 500;
     color: black; }
+  body .primary-content {
+    width: 55%;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; }
   body h3 {
     width: 450px;
     font-size: 25px;
@@ -822,25 +824,6 @@ body {
     font-family: "Quicksand", sans-serif;
     color: #5e5e5bfd;
     font-weight: 400; }
-  body .home-rooms-heading {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 30px; }
-    body .home-rooms-heading .primary-heading {
-      width: 100%;
-      height: 3px;
-      margin-top: 100px; }
-    body .home-rooms-heading h4 {
-      width: 55%;
-      display: block;
-      text-align: center;
-      padding-bottom: 30px;
-      line-height: 35px; }
   body .rooms-btn-book-now {
     width: 130px;
     height: 45px;
