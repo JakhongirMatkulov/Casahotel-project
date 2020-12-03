@@ -218,7 +218,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $backorg;
+    background-color: $Backgrey;
 
     .room-1 {
       display: flex;
@@ -341,7 +341,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
-    background-color: $Backgrey;
+    background-color: $Offwhite;
 
     .custom-galery {
     width: 80%;
@@ -432,6 +432,57 @@ body {
   .home-events {
     background-color: $Backgrey;
     padding-bottom: 100px;
+
+    .box-row {
+      width: 95%;
+      height: 95%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0 auto;
+
+      .box-item {
+        width: 28.25%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: $Offwhite;
+      }
+
+      .box-item img {
+        width: 362.5px;
+        height: 250px;
+        object-fit: cover;
+        background-size: cover;
+      }
+
+      .box-item a {
+        text-decoration: none;
+      }
+
+      .box-item a h3 {
+        width: 90%;
+        margin: 0 auto;
+        height: fit-content;
+        padding-bottom: 25px;
+        padding-top: 7px;
+
+        &:hover {
+          transition: 0.3s;
+          color: $backorg;
+        }
+      }
+      
+      .box-item h4 {
+        width: 90%;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        padding-top: 40px;
+        color: rgb(61, 61, 61);  
+      }
+    }
   }
 
   .home-reserve {
@@ -439,6 +490,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    border-top: 1.5px solid #e3e3e3;
 
     .home-reserve-heading {
       padding: 110px;
