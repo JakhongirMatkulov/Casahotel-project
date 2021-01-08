@@ -6,6 +6,7 @@
 @import 'rooms.scss';
 
 // Variables
+$testWhite: white;
 $Offwhite: whitesmoke;
 $sectionHeading: 30px;
 $Darkblack: black;
@@ -192,6 +193,76 @@ body {
     list-style: none;
   }
 
+  .testimonial {
+    background-color: $testWhite;
+    padding-bottom: 150px;  
+
+    .custom-main {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 50px 100px 100px;
+
+      .custom-item {
+        width: 30%;
+
+        .custom-content {
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          font-family: $titleStyle;
+          font-style: italic;
+          padding: 10px 0;
+        }
+        .custom-overview {
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          font-style: italic;
+        }
+      }
+
+      .custom-item img{
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        border-radius: 50%;
+        text-align: center;
+      }
+    } 
+
+      .custom-t-indicators {
+        width: 10px;
+        height: 10px;   
+        border-radius: 100%;
+        background-color: #FF842B;
+      }
+
+      .custom-icon {
+        width: 100px;
+        height: 50px;
+        color: black;
+      }
+  }
+
+  .reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1.5px solid #e3e3e3;
+
+    .reserve-heading {
+      padding: 110px;
+    }
+
+    .btn-primary {
+      margin: 120px;
+    }
+  }
+  
   .footer {
     width: 100%;
     height: 50vw;

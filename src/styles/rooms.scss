@@ -43,8 +43,8 @@ body {
     box-sizing: border-box;
     }
   }
-
-  .rooms-galery-main {
+  
+  .rooms-price {
     width: 100%;
     height: 100%;
     display: flex;
@@ -52,54 +52,62 @@ body {
     align-items: center;
     justify-content: center;
     background-color: $Backgrey;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 
     .room-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
 
     .rooms-galery {
-    display: flex;
-    flex-direction: row;
-    width: 42%;
-    height: 642px;
-    object-fit: cover;
-    background-size: cover;
+      display: flex;
+      flex-direction: row;
+      width: 42%;
+      height: 642px;
+      object-fit: cover;
+      background-size: cover;
 
     img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    margin-right: 20px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-size: cover;
+      margin-right: 20px;
     }
     }
     .rooms-content {
-    width: 42%;
-    height: 47vw;
-    padding-left: 50px;
-    background-color: $Offwhite;
-    line-height: 40px;
+      width: 42%;
+      height: 47vw;
+      padding-left: 50px;
+      background-color: $Offwhite;
 
-    .rooms-cont-items{
-    width: 95%;
-    padding-bottom: 50px;
+      .primary-heading {
+        color: $backorg;
+        padding-top: 90px;
+        height: 10px;
+        padding-bottom: 40px;
+      }
 
+      .primary-heading p {
+        padding-left: 10px;
+        padding-top: 30px;
+      }
 
-    .primary-heading {
-    color: $backorg;
-    margin-top: 90px;
-    height: 10px;
-    }
+      h4 {
+        line-height: 35px;
+      }
 
-    h3 {
-    height: 20px;
-    margin-bottom: 20px;
-    }
-    }
+      h5 {
+        line-height: 30px;
+      }
+
+      .rooms-cont-items{
+        width: 95%;
+        height: 60%;
+        padding-bottom: 50px;
+      
+      }
     }
     }
 
@@ -132,161 +140,31 @@ body {
     background-color: $Offwhite;
     line-height: 40px;
 
+    .primary-heading {
+      color: $backorg;
+      padding-top: 90px;
+      padding-bottom: 40px;
+      height: 10px;
+    } 
+    
+    .primary-heading p {
+      padding-left: 10px;
+      padding-top: 30px;
+    }
+     
+      h4 {
+        line-height: 35px;
+      }
+
+      h5 {
+        line-height: 30px;
+      }
+
     .rooms-cont-items {
     width: 95%;
     padding-bottom: 50px;
-
-    .primary-heading {
-    color: $backorg;
-    margin-top: 90px;
-    height: 10px;
-    }    
-    h3 {
-    height: 20px;
-    margin-bottom: 20px;
-    }
     }
     }
     }
   }
-
-  .rooms-reserve {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-
-    .rooms-reserve-heading {
-      padding: 110px;
-    }
-
-    .btn-primary {
-      margin: 120px;
-    }
-  }
-
-  .footer {
-    width: 100%;
-    height: 50vw;
-    background-color: #1c1a1a;
-
-    .footer-main-content {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
-      padding-top: 70px;
-
-      .footer-content-1 a {
-        font-size: 16px;
-        font-family: $h4style;
-        text-decoration: none;
-        color: $lightGrey;
-      }
-
-      .footer-content-2 a {
-        font-size: 16px;
-        font-family: $h4style;
-        text-decoration: none;
-        color: $lightGrey;
-      }
-
-      .contact {     
-        font-size: 16px;
-        font-family: $h4style;
-        color: $Backgrey;
-        text-decoration: none;
-
-         .fa-map-marker-alt {
-           color: $hoverorg;
-           display: flex;
-           flex-direction: row;
-            h5{
-             padding-left: 15px;
-             font-style: italic;
-             color: white;
-           }
-         }
-        
-        .text {
-          width: 80%;
-        }
-      
-        .fa-phone-alt {
-          color: $hoverorg;
-          display: flex;
-          flex-direction: row;
-
-          h5{
-            padding-left: 15px;
-            font-style: italic;
-            color: white;
-          }
-        }
-
-        .fa-envelope {
-          color: $hoverorg;
-          display: flex;
-          flex-direction: row;
-
-          h5{
-            padding-left: 15px;
-            font-style: italic;
-            color: white;
-          }
-        }
-      }
-
-      .inputWithicon {
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        font-family: $h4style;
-        position: relative;
-        border: none;
-
-      }
-
-      .fa-paper-plane{
-        position: absolute;
-        right: 0;
-        top: 60%;
-        transform: translateX(-60%);
-        font-size: 20px;
-      }
-    }
-
-    .hr {
-      width: 85%;
-      background: 0 rgb(61, 61, 61);
-    }
-
-    .social {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      margin-left: 115px;
-      margin-right: 115px;
-      padding-top: 50px;
-
-      .fa-tripadvisor {
-        font-size: 20px;
-        color: lightgrey;
-        padding-bottom: 30px;
-      }
-      .fa-facebook-f{
-        font-size: 17px;
-        color: lightgrey;
-        padding-bottom: 31px;
-      }
-      .fa-twitter {
-        font-size: 17px;
-        color: lightgrey;
-        padding-bottom: 29px;
-      }
-    }
-  }
-
-
 }
