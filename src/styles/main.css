@@ -215,19 +215,32 @@ body .events-galery {
         padding-top: 40px;
         color: #3d3d3d; }
     body .events-galery .events-galery-box .card-column {
-      border: 2px solid green; }
+      border: 2px solid green;
+      width: 30%; }
       body .events-galery .events-galery-box .card-column .search-box {
         border: 2px solid blue;
         width: 300px;
         height: 100px; }
       body .events-galery .events-galery-box .card-column .posts {
         border: 2px solid skyblue; }
+        body .events-galery .events-galery-box .card-column .posts h4 {
+          font-weight: bold;
+          color: black; }
         body .events-galery .events-galery-box .card-column .posts .post-box {
           width: 100%;
+          height: 21vh;
           display: flex;
+          padding: 30px;
           flex-direction: row;
           background-color: white;
           border: 2px solid black; }
+          body .events-galery .events-galery-box .card-column .posts .post-box .post-box-text {
+            width: 100%;
+            height: 15vh;
+            padding-left: 15px;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid purple; }
         body .events-galery .events-galery-box .card-column .posts .post-box img {
           width: 90px;
           height: 70px;
@@ -238,22 +251,18 @@ body .events-galery {
           text-decoration: none; }
         body .events-galery .events-galery-box .card-column .posts .post-box a h3 {
           border: 2px solid darkred;
-          width: 100%;
+          width: 90%;
           font-size: 15px;
           display: flex;
           flex-direction: row;
-          height: fit-content; }
+          height: 90%;
+          line-height: 15px; }
           body .events-galery .events-galery-box .card-column .posts .post-box a h3:hover {
             transition: 0.3s;
             color: #FF842B; }
-          body .events-galery .events-galery-box .card-column .posts .post-box a h3 .post-box-text {
-            width: fit-content;
-            height: fit-content;
-            display: flex;
-            flex-direction: column; }
         body .events-galery .events-galery-box .card-column .posts .post-box h4 {
           width: 100%;
-          font-size: 10px;
+          font-size: 12px;
           text-transform: uppercase;
           color: #3d3d3d; }
 body .events-reserve {
